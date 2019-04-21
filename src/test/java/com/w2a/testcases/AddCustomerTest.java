@@ -12,7 +12,7 @@ import com.w2a.base.TestBase;
 import com.w2a.utilities.TestUtil;
 
 public class AddCustomerTest extends TestBase {
-	
+	// checkgit
 	@Test(dataProviderClass=TestUtil.class,dataProvider="dp")
 	public void addCustomerTest(Hashtable<String,String> data) throws InterruptedException{
 		
